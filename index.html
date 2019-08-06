@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gradient Background generator</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	<h1>Background generator</h1>
+
+	<input type="color" class="color1" name="color1" value="#00ff00">
+	<input type="color" class="color2" name="color2" value="#ff0000">
+
+<!-- alt way of firing the events NOT DRY!!!! In this case can only have 1 oninput attribute. Use the other option to have more than 1 attribute. -->
+<!-- 	<input oninput="setGradient()" type="color" class="color1" name="color1" value="#00ff00">
+	<input oninput="setGradient()" type="color" class="color2" name="color2" value="#ff0000"> -->
+
+<!-- Button to display random colors for both color1 and color2 -->
+    <button id="random">Generate random color pairs</button>
+
+	<h2>Current CSS background</h2>
+
+<!-- Display the background gradient values in <h3> -->
+	<h3></h3>
+
+<!-- script code -->
+<script src="scripts.js"></script>
+
+</body>
+</html>
